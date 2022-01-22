@@ -1,0 +1,138 @@
+/*---VAR--- */
+
+:root {
+--PaleBlue: hsl(225, 100%, 94%);
+--BrightBlue: hsl(245, 75%, 52%);
+
+--VerypaleBlue: hsl(225, 100%, 98%);
+--DesaturateBblue: hsl(224, 23%, 55%);
+--DarkBlue: hsl(223, 47%, 23%);
+}
+
+/* ---- */
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight: 700;
+  position: absolute;
+  color: var(--DarkBlue);
+  right: 0;
+  bottom: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution a {
+  color: var(--BrightBlue);
+}
+.attribution a:visited {
+  color: var(--cyan);
+}
+/* --- */
+
+.card {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 22rem;
+    height: 32.4rem;
+    background-color: white;
+    border-radius: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    color: var(--DarkBlue);
+    overflow: hidden;
+    box-shadow: 2px 15px 31px -2px hsla(223, 47%, 23%, 0.233);
+    /* Edited scale for DESIGN COMPARISON */
+    /* transform: scale(1.3); */
+}
+.card article{
+    padding: 1.7rem 2.3rem;
+}
+.card h1{
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin: 0;
+}
+.card article > p{
+    font-size: .75rem;
+    margin: 1rem;
+    opacity: 0.8;
+}
+.anual-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--VerypaleBlue);
+    border-radius: .5rem;
+    height: 3.5rem;
+    margin: 1.5rem 0 2rem;
+}
+.anual-plan strong{
+    font-weight: 900;
+}
+.anual-plan p,
+.anual-plan strong{
+    margin: 0;
+    font-size: .8rem;
+}
+.anual-plan p{
+    opacity: 0.8;
+}
+.anual-plan img{
+    transform: scale(.75);
+}
+.anual-plan a{
+    font-size: .75rem;
+    font-weight: 700;
+    margin: 1rem 1rem 1rem 3.7rem;
+}
+.anual-plan a:hover{
+    opacity: .8;
+}
+.card button{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 2.3rem;
+    margin: 0 0 1.2rem;
+    background-color: var(--BrightBlue);
+    color: var(--VerypaleBlue);
+    font-weight: 900;
+    border-radius: .5rem;
+    font-size: .7rem;
+    cursor: pointer;
+}
+.card button:hover{
+    opacity: .8;
+}
+.card article > a:last-of-type{
+    font-size: .75rem;
+    font-weight: 900;
+    color: var(--DarkBlue);
+    text-decoration: none;
+    margin: 2rem;
+    opacity: .8;
+}
+
+@media screen and (max-width: 375px) {
+  body{
+      background-image: url(images/pattern-background-mobile.svg);
+  }
+  .card{
+      transform: scale(.8);
+  }
+}
