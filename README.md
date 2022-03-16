@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-card-solution-C8OfJLn4G)
-- Live Site URL: [Add live site URL here](https://cosmoart.github.io/Order-summary-component-main-solution/)
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-card-solution-C8OfJLn4G)
+- [Live Site URL](https://cosmoart.github.io/Order-summary-component-main-solution/)
 
 ## My process
 
